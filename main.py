@@ -32,5 +32,5 @@ async def root():
 async def HomePage():
     return {"HomePage": "https://apipeliculasnet8azdeploy-gpbub8grbbfab4ef.centralus-01.azurewebsites.net/"}
 
-# Access any image: http://localhost:8000/imagenes/python.jpg
-# return FileResponse("imagenes/python.jpg", media_type="image/png")
+# Access any image: http://localhost:8000/static/imagenes/python.jpg
+# return FileResponse("static/imagenes/python.jpg", media_type="image/png")
