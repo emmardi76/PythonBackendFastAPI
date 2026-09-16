@@ -17,7 +17,6 @@ app.include_router(jwt_auth_users.router)
 app.include_router(users_db.router)
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
-app.mount("/imagenes", StaticFiles(directory="imagenes"), name="imagenes")
 
 # Url local:
 # http://127.0.0.1:8000/
